@@ -1,0 +1,31 @@
+body {
+  background-image: url('https://cdn.wallpapersafari.com/84/52/VvHazk.jpg');
+  background-size: cover;
+  background-position: cover;
+  background-repeat: no-repeat;
+}
+@media(max-width:800px){
+  body {
+    background-image: url('https://cdn.wallpapersafari.com/84/52/VvHazk.jpg');
+  }
+}
+.parent-main{
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  flex-direction: column;
+}
+.register-div{
+  color: rgb(37, 4, 68);
+  font-weight: bolder;
+  font-size: 26px;
+}
+.register-div b{
+  color: blueviolet;
+}
+.register-div span{
+  color: blueviolet;
+}
