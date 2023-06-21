@@ -10,7 +10,7 @@ function Submit() {
     // const {input} = useParams();
     return (
         <div className='w-100 parent-main' >
-            <div className='register-div'>Registraction sucessfully complected <b className='fw-bold'>{location.state}</b></div>
+            <div className='register-div'>Registraction sucessfully complected <b>{location.state}</b></div>
             <div className='register-div'>You'r admission number is <span>#{Math.floor(Math.random() * (10 - 1)) + 1}</span></div>
             <a href={'/'}><b>back to login</b></a>
         </div>

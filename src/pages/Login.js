@@ -106,6 +106,7 @@ console.log(error?.input);
                             className="mb-3 w-75"
                         >
                             <Form.Control
+                                className='cletter'
                                 type="text"
                                 pattern="^[a-zA-Z]+$"
                                 name="username"

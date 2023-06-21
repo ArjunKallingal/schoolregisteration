@@ -19,13 +19,12 @@ body {
   flex-direction: column;
 }
 .register-div{
-  color: rgb(37, 4, 68);
+  color: rgb(46, 20, 71);
   font-weight: bolder;
   font-size: 26px;
+  text-transform: capitalize;
 }
-.register-div b{
-  color: blueviolet;
-}
-.register-div span{
-  color: blueviolet;
+.register-div.b{
+    font-weight: 700;
+    
 }
